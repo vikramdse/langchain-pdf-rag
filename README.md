@@ -13,7 +13,7 @@ You must have Docker installed on your machine.
 3. **Build and start the services:**
 
 ```bash
-pip install -r requirements.txt
+docker-compose up --build
 ```
 
 If this command doesn't work, use the following command instead:
