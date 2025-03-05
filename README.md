@@ -16,10 +16,12 @@ You must have Docker installed on your machine.
 docker-compose up --build
 ```
 
-If this command doesn't work, use the following command instead:
+If this command doesn't work, use the following commands instead:
 
 ```bash
-docker-compose down -v && docker-compose build --no-cache && docker-compose up -d
+docker-compose down -v
+docker-compose build --no-cache
+docker-compose up -d
 ```
 
 4. Open the Streamlit frontend at [http://localhost:8501](http://localhost:8501).  
